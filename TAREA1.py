@@ -50,7 +50,7 @@ while True:
     else :
             break 
 #Aqui se imprime una bienvenida con los datos que previamente el usuario ingreso , adicional se realiza el metodo capitalize para que se muestren las mayusculas decada palabra
-print("Mucho gusto en conocerte ", nombre.capitalize() + " " + apellidop.capitalize() + " " + apellidom.capitalize() )
+print("\n \t Mucho gusto en conocerte ", nombre.capitalize() + " " + apellidop.capitalize() + " " + apellidom.capitalize() )
 print("Para poder dar tus resultados de masa corporal necesito que me proporciones mas datos para continuar")
 #Aqui iniciamos con la funcionalidad importante de programa, que es solicitar cada valor para realizar el calculo de masa
 # las validaciones estan basadas con el tipo de dato que se ingresa para la edad se espera siempre un entero
